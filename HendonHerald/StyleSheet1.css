@@ -36,3 +36,11 @@ h2 {
 h1 {
     font-size: 50px;
 }
+.articlepic {
+    height: 278px;
+    width: 370px
+}
+#footerpic {
+    height: 85px;
+    width: 108px;        
+}
