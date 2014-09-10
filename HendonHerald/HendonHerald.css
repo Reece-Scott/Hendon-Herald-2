@@ -7,6 +7,8 @@ h3 {
     color: #FFFFFF;
     font-size: 21px;
     font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 header {
@@ -18,7 +20,7 @@ header {
 }
 
 header a {
-    text-decoration: one;
+    text-decoration: none;
     color: #ffffff  ;
 }
 
@@ -58,6 +60,7 @@ body {
 main {
     background-color: #F2F2F2;
     width: 780px;
+    margin: 0;
 
 
 }
@@ -90,10 +93,11 @@ footer > img {
 }
 
 article {
-    padding-top: 8px;
+    padding-top: 0px;
     padding-bottom: 8px;
-    margin-top: 1px;
+    margin-top: auto;
     color: #404040;
+    display: inline-block;
 }
 
 #contentContainer {
@@ -150,4 +154,8 @@ a {
 
 footer h3 {
     background-color: #404040
+}
+
+ div p {
+    padding-right: 2px;
 }
